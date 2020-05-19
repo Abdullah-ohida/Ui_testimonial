@@ -1,0 +1,99 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: hsl(225, 100%, 97%);
+}
+
+.container{
+    width: 90%;
+    max-width: 892px;
+    margin: 0 auto;
+    margin-top: 15vh;
+}
+
+.testimonial-card{
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    grid-template-rows: 380px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0px 8px 11px -2px rgba(204, 215, 250, 0.911);
+}
+
+.profile-image{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 12px 0 0 12px;
+}
+
+.testimonial-content{
+    background: white;
+    border-radius: 0 12px 12px 0;
+}
+
+.content-wrapper{
+    width: 64%;
+    margin: 11% auto;
+    display: grid;
+    align-content: center;
+}
+
+.quote-sign{
+    display: block;
+    font-size: 4.5rem;
+    height: 27px;
+}
+.quote-text{
+    font-size: 1.05rem;
+    line-height: 1.9;
+    text-align: left;
+    margin-bottom: 3.7rem;
+}
+
+.small-text{
+    color: hsl(277, 14%, 40%);
+    font-size: .94rem;
+}
+
+.logos-cont{
+    display: flex;
+}
+
+.logos-cont>span{
+    display: grid;
+    place-items: center;
+    background: white;
+    border-radius: 5px;
+    margin: 0 .5em;
+    width: 100%;
+    opacity: .75;
+    transition: .4s ease;
+}
+
+.logos-cont img{
+    height: auto;
+}
+
+.btn{
+    display: flex;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    background: black;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    white-space: nowrap;
+}
+
+.btn img{
+    width: 28px;
+    transform: rotate(180deg);
+    border-radius: 5px;
+    transition: transform .3s ease-in-out;
+}
